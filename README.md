@@ -1,2 +1,2 @@
 # urbanPan
-Single View development of acoustic steelpan app (doubleSeconds[Alto])
+Single View development of acoustic steelpan app (F3-C6 Double Seconds)
