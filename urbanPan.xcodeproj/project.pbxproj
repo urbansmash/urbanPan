@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3726F1BC2321B4D600647D03 /* urbanPan.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = 3726F1BB2321B4D500647D03 /* urbanPan.sf2 */; };
 		37779795231993CA00911264 /* 2-GS3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 37779747231993BD00911264 /* 2-GS3.wav */; };
 		37779796231993CA00911264 /* 1-GS3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 37779748231993BE00911264 /* 1-GS3.wav */; };
 		37779797231993CA00911264 /* 2-D4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 37779749231993BE00911264 /* 2-D4.wav */; };
@@ -95,6 +96,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3726F1BB2321B4D500647D03 /* urbanPan.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = urbanPan.sf2; sourceTree = "<group>"; };
 		37779747231993BD00911264 /* 2-GS3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "2-GS3.wav"; sourceTree = "<group>"; };
 		37779748231993BE00911264 /* 1-GS3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "1-GS3.wav"; sourceTree = "<group>"; };
 		37779749231993BE00911264 /* 2-D4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "2-D4.wav"; sourceTree = "<group>"; };
@@ -228,6 +230,7 @@
 		3789EE9F2317CFAB001F3188 /* Samples */ = {
 			isa = PBXGroup;
 			children = (
+				3726F1BB2321B4D500647D03 /* urbanPan.sf2 */,
 				37779774231993C500911264 /* 0-A4.wav */,
 				3777976F231993C400911264 /* 0-A5.wav */,
 				37779768231993C300911264 /* 0-AS4.wav */,
@@ -418,6 +421,7 @@
 				377797A8231993CA00911264 /* 0-G5.wav in Resources */,
 				3777979F231993CA00911264 /* 2-C4.wav in Resources */,
 				377797BE231993CA00911264 /* 0-E5.wav in Resources */,
+				3726F1BC2321B4D600647D03 /* urbanPan.sf2 in Resources */,
 				377797DB231993CA00911264 /* 1-D4.wav in Resources */,
 				377797AB231993CA00911264 /* 1-AS4.wav in Resources */,
 				377797E0231993CA00911264 /* 1-A4.wav in Resources */,
