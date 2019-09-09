@@ -24,19 +24,10 @@
                                     <constraint firstAttribute="height" constant="486" id="eu4-Pr-Sym"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NZG-FA-8fn" userLabel="FN03">
-                                <rect key="frame" x="659" y="271" width="124" height="104"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="NZG-FA-8fn" secondAttribute="height" multiplier="31:26" id="EWG-OC-0hB"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
-                                <state key="normal" title="F3">
-                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
-                                </state>
-                                <connections>
-                                    <action selector="notePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IP5-tl-zfW"/>
-                                </connections>
-                            </button>
+                            <containerView autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ULq-M3-IWW" userLabel="Left Pan">
+                                <rect key="frame" x="0.0" y="0.0" width="396" height="375"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                            </containerView>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="guz-Hy-7I0" userLabel="FS03">
                                 <rect key="frame" x="103" y="271" width="132" height="95"/>
                                 <constraints>
@@ -62,6 +53,203 @@
                                 </state>
                                 <connections>
                                     <action selector="notePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UOi-Cs-0Gk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xx7-qQ-JHL">
+                                <rect key="frame" x="256" y="252.66666666666666" width="81" height="94.333333333333343"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="81" id="Ic6-Bt-Zhy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="41"/>
+                                <state key="normal" title="Bb3">
+                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="notePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3Er-Bg-FOq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GeQ-ib-XJd">
+                                <rect key="frame" x="305" y="49.000000000000007" width="81" height="95.666666666666686"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="57"/>
+                                <state key="normal" title="C4">
+                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="notePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EGF-Lo-pmg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7TY-Y8-4IH">
+                                <rect key="frame" x="28" y="95" width="81" height="95"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="59"/>
+                                <state key="normal" title="D4">
+                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="notePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a1g-u7-W9o"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mcK-lv-iwi">
+                                <rect key="frame" x="321" y="145.66666666666666" width="75" height="84"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="75" id="76u-0g-TCe"/>
+                                    <constraint firstAttribute="height" constant="84" id="LG8-97-UtM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                                <state key="normal" title="E4">
+                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="notePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="B9W-Ye-ngb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="14" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1to-Hq-YMk">
+                                <rect key="frame" x="34" y="198" width="75" height="84"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="84" id="ADB-YA-U2S"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="42"/>
+                                <state key="normal" title="F#4">
+                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="notePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ovm-5j-CWa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="16" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0oA-uj-P4A">
+                                <rect key="frame" x="222" y="0.0" width="75" height="84"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="84" id="fN0-nq-tUC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="39"/>
+                                <state key="normal" title="Ab4">
+                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="notePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GlR-m3-7ok"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="18" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k0r-wd-gtU">
+                                <rect key="frame" x="228" y="198" width="51" height="53"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="53" id="3w2-i4-z5C"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <state key="normal" title="Bb4">
+                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="notePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mfq-hc-dP6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="20" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jvX-xe-qBw">
+                                <rect key="frame" x="232" y="99" width="51" height="53"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="53" id="0qO-98-XAm"/>
+                                    <constraint firstAttribute="width" constant="51" id="y7m-7C-4YM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <state key="normal" title="C5">
+                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="notePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="spm-6u-Cg2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="22" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nEJ-Iw-pzC">
+                                <rect key="frame" x="134" y="131" width="46" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="ZXq-RJ-BlQ"/>
+                                    <constraint firstAttribute="width" constant="46" id="vp4-dh-HA8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="D5">
+                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="notePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="j5z-R1-CvY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="24" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="46P-UD-2wK">
+                                <rect key="frame" x="268" y="152" width="45" height="46"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="45" id="4HS-ad-pFM"/>
+                                    <constraint firstAttribute="height" constant="46" id="jgf-Ef-MBz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <state key="normal" title="E5">
+                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="notePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="K0v-DT-9yq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="26" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0sx-2e-9F5">
+                                <rect key="frame" x="133" y="187" width="45" height="46"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="45" id="Wh6-BB-YnF"/>
+                                    <constraint firstAttribute="height" constant="46" id="v9M-cQ-vcY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <state key="normal" title="F#5">
+                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="notePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qby-9A-s9m"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="28" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UJU-Ht-bzy">
+                                <rect key="frame" x="183" y="95" width="41" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="41" id="DLC-Cy-p8D"/>
+                                    <constraint firstAttribute="height" constant="45" id="Tlo-v1-O1Y"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="Ab5">
+                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="notePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jeT-4o-ISM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="30" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wN0-oX-dkG">
+                                <rect key="frame" x="179" y="218" width="41" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="8Wf-Ox-J5l"/>
+                                    <constraint firstAttribute="width" constant="41" id="erQ-J7-Tft"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Bb5">
+                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="notePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RPH-dd-Ny2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="32" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pqb-6R-ik4">
+                                <rect key="frame" x="200" y="151" width="41" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="41" id="Ral-Nj-Awi"/>
+                                    <constraint firstAttribute="height" constant="45" id="XaG-XU-JeX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="C6">
+                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="notePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="V26-vy-SZE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NZG-FA-8fn" userLabel="FN03">
+                                <rect key="frame" x="659" y="271" width="124" height="104"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="NZG-FA-8fn" secondAttribute="height" multiplier="31:26" id="EWG-OC-0hB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                <state key="normal" title="F3">
+                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="notePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IP5-tl-zfW"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y5d-zl-2Ts">
@@ -90,19 +278,6 @@
                                     <action selector="notePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="B5Y-0J-df0"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xx7-qQ-JHL">
-                                <rect key="frame" x="256" y="252.66666666666666" width="81" height="94.333333333333343"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="81" id="Ic6-Bt-Zhy"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="41"/>
-                                <state key="normal" title="Bb3">
-                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
-                                </state>
-                                <connections>
-                                    <action selector="notePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3Er-Bg-FOq"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n7Y-o4-op9">
                                 <rect key="frame" x="702" y="126" width="81" height="95"/>
                                 <constraints>
@@ -116,16 +291,6 @@
                                     <action selector="notePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="i0S-3N-QBQ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GeQ-ib-XJd">
-                                <rect key="frame" x="305" y="49.000000000000007" width="81" height="95.666666666666686"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="57"/>
-                                <state key="normal" title="C4">
-                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
-                                </state>
-                                <connections>
-                                    <action selector="notePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EGF-Lo-pmg"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E9c-Qb-m8f">
                                 <rect key="frame" x="410" y="153" width="81" height="95"/>
                                 <constraints>
@@ -137,16 +302,6 @@
                                 </state>
                                 <connections>
                                     <action selector="notePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gxs-nw-MXM"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7TY-Y8-4IH">
-                                <rect key="frame" x="28" y="95" width="81" height="95"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="59"/>
-                                <state key="normal" title="D4">
-                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
-                                </state>
-                                <connections>
-                                    <action selector="notePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a1g-u7-W9o"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SWD-p4-Nq1">
@@ -163,20 +318,6 @@
                                     <action selector="notePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jU3-Th-r6Y"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mcK-lv-iwi">
-                                <rect key="frame" x="321" y="145.66666666666666" width="75" height="84"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="75" id="76u-0g-TCe"/>
-                                    <constraint firstAttribute="height" constant="84" id="LG8-97-UtM"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
-                                <state key="normal" title="E4">
-                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
-                                </state>
-                                <connections>
-                                    <action selector="notePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="B9W-Ye-ngb"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3wX-w7-Meb">
                                 <rect key="frame" x="569" y="303" width="75" height="84"/>
                                 <constraints>
@@ -189,19 +330,6 @@
                                 </state>
                                 <connections>
                                     <action selector="notePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cOv-uU-AZT"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" tag="14" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1to-Hq-YMk">
-                                <rect key="frame" x="34" y="198" width="75" height="84"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="84" id="ADB-YA-U2S"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="42"/>
-                                <state key="normal" title="F#4">
-                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
-                                </state>
-                                <connections>
-                                    <action selector="notePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ovm-5j-CWa"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="15" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aYz-83-fht">
@@ -217,19 +345,6 @@
                                     <action selector="notePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lpp-h0-9S1"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="16" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0oA-uj-P4A">
-                                <rect key="frame" x="222" y="0.0" width="75" height="84"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="84" id="fN0-nq-tUC"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="39"/>
-                                <state key="normal" title="Ab4">
-                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
-                                </state>
-                                <connections>
-                                    <action selector="notePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GlR-m3-7ok"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" tag="17" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h1j-gg-Ud9">
                                 <rect key="frame" x="524" y="229" width="51" height="53"/>
                                 <constraints>
@@ -241,19 +356,6 @@
                                 </state>
                                 <connections>
                                     <action selector="notePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sfC-VZ-Ev6"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" tag="18" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k0r-wd-gtU">
-                                <rect key="frame" x="228" y="198" width="51" height="53"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="53" id="3w2-i4-z5C"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                <state key="normal" title="Bb4">
-                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
-                                </state>
-                                <connections>
-                                    <action selector="notePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mfq-hc-dP6"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="19" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ehh-s5-3li">
@@ -270,20 +372,6 @@
                                     <action selector="notePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kP3-aa-fMZ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="20" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jvX-xe-qBw">
-                                <rect key="frame" x="232" y="99" width="51" height="53"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="53" id="0qO-98-XAm"/>
-                                    <constraint firstAttribute="width" constant="51" id="y7m-7C-4YM"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                <state key="normal" title="C5">
-                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
-                                </state>
-                                <connections>
-                                    <action selector="notePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="spm-6u-Cg2"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" tag="21" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xT6-ci-lpE">
                                 <rect key="frame" x="494" y="157" width="51" height="53"/>
                                 <constraints>
@@ -296,20 +384,6 @@
                                 </state>
                                 <connections>
                                     <action selector="notePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Kgo-lo-zBk"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" tag="22" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nEJ-Iw-pzC">
-                                <rect key="frame" x="134" y="131" width="46" height="45"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="45" id="ZXq-RJ-BlQ"/>
-                                    <constraint firstAttribute="width" constant="46" id="vp4-dh-HA8"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <state key="normal" title="D5">
-                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
-                                </state>
-                                <connections>
-                                    <action selector="notePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="j5z-R1-CvY"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="23" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZlZ-kh-Cqc">
@@ -326,20 +400,6 @@
                                     <action selector="notePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6YL-5u-gAF"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="24" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="46P-UD-2wK">
-                                <rect key="frame" x="268" y="152" width="45" height="46"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="45" id="4HS-ad-pFM"/>
-                                    <constraint firstAttribute="height" constant="46" id="jgf-Ef-MBz"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                <state key="normal" title="E5">
-                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
-                                </state>
-                                <connections>
-                                    <action selector="notePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="K0v-DT-9yq"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" tag="25" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NjI-ct-cE1">
                                 <rect key="frame" x="587" y="256" width="45" height="46"/>
                                 <constraints>
@@ -352,20 +412,6 @@
                                 </state>
                                 <connections>
                                     <action selector="notePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YFB-vR-lY3"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" tag="26" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0sx-2e-9F5">
-                                <rect key="frame" x="133" y="187" width="45" height="46"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="45" id="Wh6-BB-YnF"/>
-                                    <constraint firstAttribute="height" constant="46" id="v9M-cQ-vcY"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                <state key="normal" title="F#5">
-                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
-                                </state>
-                                <connections>
-                                    <action selector="notePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qby-9A-s9m"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="27" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lEf-e7-DJx">
@@ -382,20 +428,6 @@
                                     <action selector="notePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ej0-qq-xyT"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="28" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UJU-Ht-bzy">
-                                <rect key="frame" x="183" y="95" width="41" height="45"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="41" id="DLC-Cy-p8D"/>
-                                    <constraint firstAttribute="height" constant="45" id="Tlo-v1-O1Y"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                <state key="normal" title="Ab5">
-                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
-                                </state>
-                                <connections>
-                                    <action selector="notePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jeT-4o-ISM"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" tag="29" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="giQ-h2-YOT">
                                 <rect key="frame" x="572" y="184" width="41" height="45"/>
                                 <constraints>
@@ -410,20 +442,6 @@
                                     <action selector="notePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wl7-IQ-lCH"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="30" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wN0-oX-dkG">
-                                <rect key="frame" x="179" y="218" width="41" height="45"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="45" id="8Wf-Ox-J5l"/>
-                                    <constraint firstAttribute="width" constant="41" id="erQ-J7-Tft"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="Bb5">
-                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
-                                </state>
-                                <connections>
-                                    <action selector="notePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RPH-dd-Ny2"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" tag="31" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tqh-14-S41">
                                 <rect key="frame" x="631" y="221" width="41" height="45"/>
                                 <constraints>
@@ -436,20 +454,6 @@
                                 </state>
                                 <connections>
                                     <action selector="notePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gdk-QV-mG9"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" tag="32" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pqb-6R-ik4">
-                                <rect key="frame" x="200" y="151" width="41" height="45"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="41" id="Ral-Nj-Awi"/>
-                                    <constraint firstAttribute="height" constant="45" id="XaG-XU-JeX"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="C6">
-                                    <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
-                                </state>
-                                <connections>
-                                    <action selector="notePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="V26-vy-SZE"/>
                                 </connections>
                             </button>
                         </subviews>
