@@ -17,11 +17,11 @@
                         <viewControllerLayoutGuide type="top" id="9qa-Se-3q0"/>
                         <viewControllerLayoutGuide type="bottom" id="28S-2v-w0x"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" userLabel="Device View">
                         <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Urban Pan (colour)" translatesAutoresizingMaskIntoConstraints="NO" id="41y-CE-drD">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Urban Pan (colour)" translatesAutoresizingMaskIntoConstraints="NO" id="41y-CE-drD" userLabel="Urban Pan (photo)">
                                 <rect key="frame" x="0.0" y="-174" width="568" height="576"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="1576" id="EKv-5q-8dd">
@@ -44,13 +44,43 @@
                                     </mask>
                                 </variation>
                             </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rwa-0I-2U8" userLabel="Top Left Guide (Cayenne #941100)">
+                                <rect key="frame" x="0.0" y="0.0" width="0.0" height="8"/>
+                                <color key="backgroundColor" red="0.58072251080000004" green="0.066734083" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mCR-nI-YSU" userLabel="Top Right Guide (Cayenne #941100)">
+                                <rect key="frame" x="287" y="0.0" width="281" height="34"/>
+                                <color key="backgroundColor" red="0.58072251080000004" green="0.066734083" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8D2-DO-drx" userLabel="Bottom Left Guide (#ASU Gold FFC627)">
+                                <rect key="frame" x="0.0" y="281" width="277" height="39"/>
+                                <color key="backgroundColor" red="1" green="0.77647058823529413" blue="0.15294117647058825" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0UU-CO-Gek" userLabel="Bottom Right Guide (#ASU Gold FFC627)">
+                                <rect key="frame" x="287" y="303" width="281" height="17"/>
+                                <color key="backgroundColor" red="1" green="0.77647058820000003" blue="0.1529411765" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view autoresizesSubviews="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="32W-S6-lrU" userLabel="Right Pan (Clover #008F00)">
+                                <rect key="frame" x="287" y="34" width="281" height="269"/>
+                                <color key="backgroundColor" red="0.0" green="0.56031829119999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view autoresizesSubviews="NO" contentMode="scaleAspectFit" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VEt-gV-Ae8" userLabel="Left Pan (Clover #008F00)">
+                                <rect key="frame" x="0.0" y="8" width="277" height="273"/>
+                                <color key="backgroundColor" red="0.0" green="0.5607843137254902" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="mCR-nI-YSU" firstAttribute="trailing" secondItem="32W-S6-lrU" secondAttribute="trailing" id="4vT-La-s28"/>
+                            <constraint firstItem="32W-S6-lrU" firstAttribute="top" secondItem="mCR-nI-YSU" secondAttribute="bottom" id="4wv-Xm-XJ8"/>
+                            <constraint firstItem="VEt-gV-Ae8" firstAttribute="trailing" secondItem="8D2-DO-drx" secondAttribute="trailing" id="5zk-RM-dZn"/>
                             <constraint firstAttribute="trailing" secondItem="41y-CE-drD" secondAttribute="trailing" id="6Rr-Jg-SUc"/>
                             <constraint firstItem="41y-CE-drD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="7YM-Rf-YY4">
                                 <variation key="heightClass=compact-widthClass=regular" constant="-27"/>
                             </constraint>
+                            <constraint firstItem="32W-S6-lrU" firstAttribute="leading" secondItem="0UU-CO-Gek" secondAttribute="leading" id="8fv-1o-j1e"/>
                             <constraint firstItem="41y-CE-drD" firstAttribute="top" secondItem="9qa-Se-3q0" secondAttribute="bottom" id="9dM-HF-D4T">
                                 <variation key="heightClass=compact-widthClass=compact" constant="-174"/>
                                 <variation key="heightClass=compact-widthClass=regular" constant="-112"/>
@@ -58,17 +88,37 @@
                             <constraint firstAttribute="trailing" secondItem="41y-CE-drD" secondAttribute="trailing" id="9gl-Bd-Qf6">
                                 <variation key="heightClass=compact-widthClass=regular" constant="-28"/>
                             </constraint>
+                            <constraint firstItem="0UU-CO-Gek" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="303" id="CQD-XY-hh1"/>
+                            <constraint firstItem="0UU-CO-Gek" firstAttribute="top" secondItem="32W-S6-lrU" secondAttribute="bottom" id="Dmp-Se-KKc"/>
+                            <constraint firstItem="rwa-0I-2U8" firstAttribute="leading" secondItem="VEt-gV-Ae8" secondAttribute="leading" id="FQn-9C-8dC"/>
+                            <constraint firstItem="41y-CE-drD" firstAttribute="leading" secondItem="rwa-0I-2U8" secondAttribute="trailing" id="Gpe-jh-COZ"/>
                             <constraint firstItem="41y-CE-drD" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="-34" id="HM4-qV-hxQ">
                                 <variation key="heightClass=regular-widthClass=regular" constant="-98"/>
                             </constraint>
+                            <constraint firstItem="8D2-DO-drx" firstAttribute="bottom" secondItem="28S-2v-w0x" secondAttribute="top" id="IEN-OL-9xN"/>
                             <constraint firstItem="41y-CE-drD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Id4-7Y-aLy"/>
+                            <constraint firstAttribute="bottom" secondItem="rwa-0I-2U8" secondAttribute="bottom" constant="312" id="Ise-8F-Nyo"/>
+                            <constraint firstItem="32W-S6-lrU" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="34" id="Mew-lx-w9x"/>
+                            <constraint firstItem="VEt-gV-Ae8" firstAttribute="leading" secondItem="8D2-DO-drx" secondAttribute="leading" id="Pux-O3-qLD"/>
                             <constraint firstItem="41y-CE-drD" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="-245" id="WTs-tp-g6q">
                                 <variation key="heightClass=compact-widthClass=regular" constant="-191"/>
                             </constraint>
                             <constraint firstItem="41y-CE-drD" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Xql-yo-IVp">
                                 <variation key="heightClass=regular-widthClass=regular" constant="-3"/>
                             </constraint>
+                            <constraint firstItem="mCR-nI-YSU" firstAttribute="trailing" secondItem="41y-CE-drD" secondAttribute="trailing" id="bQ8-AU-Jc7"/>
+                            <constraint firstItem="mCR-nI-YSU" firstAttribute="leading" secondItem="VEt-gV-Ae8" secondAttribute="trailing" constant="10" id="bpG-lw-jAy"/>
+                            <constraint firstItem="0UU-CO-Gek" firstAttribute="bottom" secondItem="28S-2v-w0x" secondAttribute="top" id="eLd-u3-HbB"/>
+                            <constraint firstItem="8D2-DO-drx" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="281" id="eYa-5a-nzw"/>
+                            <constraint firstItem="32W-S6-lrU" firstAttribute="trailing" secondItem="0UU-CO-Gek" secondAttribute="trailing" id="hT8-S3-XT2"/>
+                            <constraint firstItem="mCR-nI-YSU" firstAttribute="leading" secondItem="32W-S6-lrU" secondAttribute="leading" id="mpN-dA-pJi"/>
+                            <constraint firstItem="VEt-gV-Ae8" firstAttribute="top" secondItem="9qa-Se-3q0" secondAttribute="bottom" constant="8" symbolic="YES" id="msO-fz-dAp"/>
+                            <constraint firstItem="rwa-0I-2U8" firstAttribute="top" secondItem="mCR-nI-YSU" secondAttribute="top" id="nsO-7P-19M"/>
+                            <constraint firstItem="8D2-DO-drx" firstAttribute="top" secondItem="VEt-gV-Ae8" secondAttribute="bottom" id="oAY-6n-Bg5"/>
                             <constraint firstItem="41y-CE-drD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="r4t-R6-2fe"/>
+                            <constraint firstItem="rwa-0I-2U8" firstAttribute="leading" secondItem="41y-CE-drD" secondAttribute="leading" id="rWB-Vz-SKl"/>
+                            <constraint firstItem="rwa-0I-2U8" firstAttribute="top" secondItem="9qa-Se-3q0" secondAttribute="bottom" id="w3i-Ya-dOG"/>
+                            <constraint firstItem="mCR-nI-YSU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="287" id="wlJ-Rs-N73"/>
                             <constraint firstAttribute="trailing" secondItem="41y-CE-drD" secondAttribute="trailing" id="yJu-BM-y7s"/>
                             <constraint firstItem="28S-2v-w0x" firstAttribute="top" secondItem="41y-CE-drD" secondAttribute="bottom" id="ykc-Ha-sWM">
                                 <variation key="heightClass=compact-widthClass=compact" constant="-82"/>
@@ -117,7 +167,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="0.53956834532374098" y="31.654676258992808"/>
+            <point key="canvasLocation" x="-2.112676056338028" y="26.25"/>
         </scene>
     </scenes>
     <resources>
